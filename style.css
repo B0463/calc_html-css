@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+main {
+    background-image: linear-gradient(45deg, #ff0000, #0000ff);
+    height: 100vh;
+}
+.title {
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+.calc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000000;
+    padding: 15px;
+    border-radius: 15px;
+}
+.calc__title {
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+.result {
+    font-family: 'Ubuntu Mono', monospace;
+    display: block;
+    text-align: right;
+    color: #ffffff;
+    font-size: 20px;
+    background: #c0c0c0;
+    color: #000000;
+    padding: 3px 5px;
+    margin: 10px 0;
+    height: 20px;
+}
+.btn {
+    font-family: 'Ubuntu Mono', monospace;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    background: #707070;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn:hover {
+    background: #505050;
+}
+.btn:active {
+    background: #303030;
+}
+.btn__zero {
+    width: 90px;
+}
+.btn__calc {
+    height: 90px;
+}
