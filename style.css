@@ -36,6 +36,30 @@ main {
     margin: 10px 0;
     height: 20px;
 }
+.calc__opcs {
+    margin: 7px 0;
+    text-align: center;
+}
+.calc__opcs_btn {
+    border: 0;
+    background-color: #ffffff;
+    height: 25px;
+    padding: 0 10px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.calc__opcs-state {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 0;
+    border-radius: 3px;
+    background-color: #909090;
+}
+.calc__kb-state {
+    margin: 0;
+}
 .btn {
     font-family: 'Ubuntu Mono', monospace;
     width: 40px;
@@ -46,11 +70,12 @@ main {
     border-radius: 5px;
     font-size: 20px;
 }
-.btn:hover {
-    background: #505050;
-}
 .btn:active {
     background: #303030;
+}
+.btn:hover {
+    background: #505050;
+    cursor: pointer;
 }
 .btn__zero {
     width: 90px;

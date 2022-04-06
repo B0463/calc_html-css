@@ -5,16 +5,22 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>1.0 | calc_html-css</title>
+        <title>2.0 | calc_html-css</title>
         <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <main>
-            <h1 class="title">calculator 1.0</h1>
+            <h1 class="title">calculator 2.0</h1>
             <div class="calc">
-                <h1 class="calc__title">hkalc-29fa2</h1>
+                <h1 class="calc__title">hkalc-K44H</h1>
                 <span class="result"></span>
+                <div class="calc__opcs">
+                    <button class="calc__io-btn calc__opcs_btn" onclick="io()">I/O</button>
+                    <span class="calc__io-state calc__opcs-state"></span>
+                    <button class="calc__kb-btn calc__opcs_btn" onclick="kb()">keyboard</button>
+                    <span class="calc__kb-state calc__opcs-state"></span>
+                </div>
                 <table>
                     <tr class="btn__lines">
                         <td class="btn__column"><button onclick="clean()" class="btn">C</button></td>

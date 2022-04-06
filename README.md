@@ -4,19 +4,23 @@
 
 ### design inspired by: [Gustavo Neitzke](https://youtu.be/42TShjXR0m0)
 
-version 1.0 **hkalc-29fa2**
+version 2.0 **hkalc-K44H**
 
-minimalist
+new model
 
-![demo01](img/demos/1.0/01.png)
+![demo01](img/demos/2.0/01.png)
 
-multi operations
+on/off option
 
-![demo2](img/demos/1.0/02.png)
+![demo2](img/demos/2.0/02.png)
 
-decimal accounts
+normal calculations
 
-![demo03](img/demos/1.0/03.png)
+![demo03](img/demos/2.0/03.png)
+
+option to use keyboard
+
+![demo04](img/demos/2.0/04.png)
 
 design inspired by: [Gustavo Neitzke](https://youtu.be/42TShjXR0m0)
 
